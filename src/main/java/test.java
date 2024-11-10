@@ -13,6 +13,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
+/* 
+* CLASSE UTILIZZATA COME TEST DURANTE LA PROGETTAZIONE
+*/
 public class test {
     /*
     public static void scrivi(String content, String nomeFile) {
@@ -76,6 +79,8 @@ public class test {
         }
     }
     */
+
+    // Scrive su file .txt l'effettivo contenuto dell'indice
     public static void main(String[] args) {
         String indexPath = LuceneConstants.INDEX_PATH;  // Modifica con il percorso corretto dell'indice
         String outputFilePath = "outputIndex2.txt"; // Nome del file di output
